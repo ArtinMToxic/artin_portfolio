@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
@@ -12,29 +13,112 @@
 
 <body>
 
+    <!-- Navigation -->
     <header>
         <nav>
             <a href="#">Home</a>
-            <a href="#">Projects</a>
-            <a href="#">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About Me</a>
         </nav>
-
-        <h1>Artin Akbari</h1>
-
-        <p>Developer and Graphist</p>
     </header>
 
+
+    <!-- Main Content -->
     <main>
 
-        <p>
-            Hello, my full name is Artin Akbari, and I am from Iran.
-            My skills include Photoshop and programming.
-            I love my skills and perform my work with great passion and enthusiasm.
-        </p>
+        <!-- Hero Section -->
+        <section id="hero">
 
-        <img src="Artin.webp" alt="Artin Akbari">
+            <div class="hero-text">
+
+                <h1>Hi, I'm Artin</h1>
+
+                <h2>Developer & Graphic Designer</h2>
+
+                <p>
+                    Hello, my full name is Artin Akbari, and I am from Iran.
+                    My skills include Photoshop and programming.
+                    I love programming, design, and creating new projects
+                    with passion and enthusiasm.
+                </p>
+
+                <a href="#projects" class="hero-button">
+                    View My Projects
+                </a>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <img src="Artin.webp" alt="Artin Akbari">
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects">
+
+            <h2>My Projects</h2>
+
+            <div class="projects-container">
+
+                <!-- Project 1 -->
+                <article class="project-card">
+
+                    <h3>Smart Farm</h3>
+
+                    <p>
+                        A smart agriculture application built with
+                        MIT App Inventor.
+                    </p>
+
+                    <a href="#">
+                        View Project
+                    </a>
+
+                </article>
+
+
+                <!-- Project 2 -->
+                <article class="project-card">
+
+                    <h3>My Portfolio</h3>
+
+                    <p>
+                        My personal portfolio website built with
+                        HTML, CSS and JavaScript.
+                    </p>
+
+                    <a href="#">
+                        View Project
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- About Me Section -->
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am a young developer and graphic designer who enjoys
+                learning programming, web development and digital design.
+                I am constantly working on new projects and improving
+                my skills.
+            </p>
+
+        </section>
 
     </main>
 
 </body>
+
 </html>
